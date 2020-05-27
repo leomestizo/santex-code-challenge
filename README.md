@@ -16,7 +16,7 @@ yarn start
 
 ## Note to the reviewers
 
-The project was created from scratch (no tools like Create React App were used). If you see something weird or have any doubt about something I did, please let me know!
+The project was created from scratch (no tools like Create React App were used). If you see something weird or have a question about something I did, please let me know!
 
 Besides that, you are going to see that the reducer functions have statements like the following one:
 ```
