@@ -1,6 +1,6 @@
 # Minesweeper game
 
-This project is part of the process to apply to the Santex's front-end developer position. The game was developed using the [Microsoft Windows Minesweeper]([https://en.wikipedia.org/wiki/Microsoft_Minesweeper#/media/File:Minesweeper_XP.png](https://en.wikipedia.org/wiki/Microsoft_Minesweeper#/media/File:Minesweeper_XP.png)) as source of inspiration.
+This project is part of the process to apply to the Santex's front-end developer position. The game was developed using the [Microsoft Windows Minesweeper](https://en.wikipedia.org/wiki/Microsoft_Minesweeper#/media/File:Minesweeper_XP.png) as source of inspiration.
 
 ## Getting started
 
@@ -16,7 +16,9 @@ yarn start
 
 ## Note to the reviewers
 
-You are going to see that the reducer functions have statements like the following one:
+The project was created from scratch (no tools like Create React App were used). If you see something weird or have any doubt about something I did, please let me know!
+
+Besides that, you are going to see that the reducer functions have statements like the following one:
 ```
 state.gameStatus = GAME_OVER;
 ```
