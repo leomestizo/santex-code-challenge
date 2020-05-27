@@ -1,0 +1,11 @@
+.difficulty-level-item {
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &.selected {
+    color: #337ab7;
+  }
+}

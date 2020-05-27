@@ -1,0 +1,59 @@
+.game-board-cell {
+  background-size: cover;
+
+  &.covered {
+    background-image: url('./images/covered.svg');
+  }
+
+  &.flagged {
+    background-image: url('./images/flagged.svg');
+  }
+
+  &.wrong-flag {
+    background-image: url('./images/wrong-flag.svg');
+  }
+
+  &.mine {
+    background-image: url('./images/mine.svg');
+  }
+
+  &.exploded {
+    background-image: url('./images/exploded.svg');
+  }
+
+  &.zero-adjacent-mines {
+    background-image: url('./images/zero-adjacent-mines.svg');
+  }
+
+  &.one-adjacent-mine {
+    background-image: url('./images/one-adjacent-mine.svg');
+  }
+
+  &.two-adjacent-mines {
+    background-image: url('./images/two-adjacent-mines.svg');
+  }
+
+  &.three-adjacent-mines {
+    background-image: url('./images/three-adjacent-mines.svg');
+  }
+
+  &.four-adjacent-mines {
+    background-image: url('./images/four-adjacent-mines.svg');
+  }
+
+  &.five-adjacent-mines {
+    background-image: url('./images/five-adjacent-mines.svg');
+  }
+
+  &.six-adjacent-mines {
+    background-image: url('./images/six-adjacent-mines.svg');
+  }
+
+  &.seven-adjacent-mines {
+    background-image: url('./images/seven-adjacent-mines.svg');
+  }
+
+  &.eight-adjacent-mines {
+    background-image: url('./images/eight-adjacent-mines.svg');
+  }
+}

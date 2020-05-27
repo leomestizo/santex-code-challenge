@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "yarn run lint && yarn run stylelint",
+    "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+  }
+}

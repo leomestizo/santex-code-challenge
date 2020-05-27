@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "airbnb/rules/react",
+    "airbnb/hooks"
+  ],
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack/baseConfig.js"
+      }
+    }
+  },
+  "rules": {
+    "no-plusplus": "off",
+    "prefer-template": "off",
+    "no-param-reassign": ["error", {
+      "props": true,
+      "ignorePropertyModificationsFor": ["state", "gameBoard"]
+    }],
+    "import/prefer-default-export": "off",
+    "react/button-has-type": "off",
+    "react/jsx-props-no-spreading": ["error", {
+      "exceptions": ["Component"]
+    }]
+  }
+}

@@ -1,0 +1,20 @@
+$game-status-indicator-size: 39px;
+
+.game-status-indicator {
+  width: $game-status-indicator-size;
+  height: $game-status-indicator-size;
+  background-image: url('./images/unpressed.svg');
+  background-size: cover;
+
+  &.game-over {
+    background-image: url('./images/game-over.svg');
+  }
+
+  &.won-game {
+    background-image: url('./images/won-game.svg');
+  }
+
+  &.pressed {
+    background-image: url('./images/pressed.svg');
+  }
+}

@@ -1,0 +1,50 @@
+.digital-number {
+  width: 16px;
+  height: 31px;
+  margin-right: 3px;
+  background-size: cover;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.zero {
+    background-image: url('./images/zero.svg');
+  }
+
+  &.one {
+    background-image: url('./images/one.svg');
+  }
+
+  &.two {
+    background-image: url('./images/two.svg');
+  }
+
+  &.three {
+    background-image: url('./images/three.svg');
+  }
+
+  &.four {
+    background-image: url('./images/four.svg');
+  }
+
+  &.five {
+    background-image: url('./images/five.svg');
+  }
+
+  &.six {
+    background-image: url('./images/six.svg');
+  }
+
+  &.seven {
+    background-image: url('./images/seven.svg');
+  }
+
+  &.eight {
+    background-image: url('./images/eight.svg');
+  }
+
+  &.nine {
+    background-image: url('./images/nine.svg');
+  }
+}

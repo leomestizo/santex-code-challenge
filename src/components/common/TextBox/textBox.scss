@@ -1,0 +1,22 @@
+$error-color: #f00;
+
+.text-box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  padding: 0 5px;
+  border: 0;
+  box-shadow: 0 0 0 1px #ccc;
+
+  &.has-error {
+    box-shadow: 0 0 0 1px $error-color;
+  }
+}
+
+.error-msg {
+  margin-top: 5px;
+  color: $error-color;
+  font-size: 14px;
+}
